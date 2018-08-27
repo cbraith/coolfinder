@@ -1,10 +1,10 @@
 {
-  "name": "webpack-seed",
+  "name": "coolfinder",
   "version": "1.0.0",
-  "description": "Vanilla JS ES6 (ES2015) seed. Bootstrapped with sass and a standard linter. Add what you need!",
+  "description": "Finds cool products on Etsy!",
   "main": "index.js",
   "repository": {},
-  "author": "William Wise <will@williamwise.net>",
+  "author": "Chris Braithwaite",
   "license": "WTFPL",
   "engines": {
     "node": ">=6"
@@ -30,6 +30,7 @@
     "html-minifier": "^3.5.2",
     "html-webpack-plugin": "^2.28.0",
     "jshint": "^2.9.4",
+    "lodash": "^4.17.10",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.5",
     "standard": "^10.0.2",
@@ -41,6 +42,7 @@
   "dependencies": {
     "bulma": "^0.4.3",
     "eslint-config-idiomatic": "^4.0.0",
+    "fetch-jsonp": "^1.1.3",
     "jshint-loader": "^0.8.4",
     "normalize.css": "^7.0.0"
   }

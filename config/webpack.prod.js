@@ -69,8 +69,6 @@ module.exports = {
       }
     ]),
 
-    new webpack.optimize.UglifyJsPlugin(),
-
     new webpack.NamedModulesPlugin(),
 
     new HtmlWebpackPlugin({
