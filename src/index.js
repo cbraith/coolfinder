@@ -66,7 +66,7 @@ let products = [],
     },
     removeClass = function ( element, cls ) {
       if ( element.className.search( cls ) > -1 ) {
-        element.className = element.className.replace( cls, '' );
+        element.className = element.className.replace( cls, '' ).trim();
       }
     },
 
